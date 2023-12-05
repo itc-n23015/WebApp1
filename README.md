@@ -1,2 +1,2 @@
-# WebApp1
-講義用GitHubリボジトリ
+# WebApplication
+JavaScript React Next.js
