@@ -1,5 +1,20 @@
-# Created by https://www.toptal.com/developers/gitignore/api/nextjs
-# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs
+# Created by https://www.toptal.com/developers/gitignore/api/nextjs,react,linux,vs
+# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs,react,linux,vs
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### NextJS ###
 # dependencies
@@ -37,10 +52,6 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# End of https://www.toptal.com/developers/gitignore/api/nextjs
-# Created by https://www.toptal.com/developers/gitignore/api/react
-# Edit at https://www.toptal.com/developers/gitignore?templates=react
-
 ### react ###
 .DS_*
 *.log
@@ -56,29 +67,6 @@ bower_components
 psd
 thumb
 sketch
-
-# End of https://www.toptal.com/developers/gitignore/api/react
-# Created by https://www.toptal.com/developers/gitignore/api/linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux
-
-### Linux ###
-*~
-
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
-
-# KDE directory preferences
-.directory
-
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
-
-# End of https://www.toptal.com/developers/gitignore/api/linux
-# Created by https://www.toptal.com/developers/gitignore/api/vs
-# Edit at https://www.toptal.com/developers/gitignore?templates=vs
 
 ### vs ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -168,7 +156,6 @@ StyleCopReport.xml
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
-*.log
 *.vspscc
 *.vssscc
 .builds
@@ -308,7 +295,6 @@ _pkginfo.txt
 # Others
 ClientBin/
 ~$*
-*~
 *.dbmdl
 *.dbproj.schemaview
 *.jfm
@@ -435,4 +421,4 @@ MigrationBackup/
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
 
-# End of https://www.toptal.com/developers/gitignore/api/vs
+# End of https://www.toptal.com/developers/gitignore/api/nextjs,react,linux,vs
